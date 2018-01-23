@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'gora_freeregular';
+    src: url('gora-free-webfont.woff2') format('woff2'),
+         url('gora-free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "open_sansbold";
+    src: url('../../fonts/opensans-bold-webfont/opensans-bold-webfont.woff2') format('woff2');
+    src:  url('../../fonts/opensans-bold-webfont/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "open_sanslight";
+    src: url('../../fonts/opensans-light-webfont/opensans-light-webfont.woff2') format('woff2'),
+         url('../../fonts/opensans-light-webfont/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../../fonts/opensans-lightitalic-webfont/opensans-lightitalic-webfont.woff2') format('woff2');
+    src: url('../../fonts/opensans-lightitalic-webfont/opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

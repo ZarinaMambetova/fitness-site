@@ -1,0 +1,30 @@
+.breadcrumbs {
+    margin-bottom: 15px;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  .breadcrumbs__item {
+    display: inline-block;
+  }
+  
+  .breadcrumbs__item:after {
+    content: '/';
+  }
+  
+  .breadcrumbs__item:last-child:after {
+    display: none;
+  }
+
+  .breadcrumbs__link {
+    color: #f9ad5f;
+    font-size: 14px;
+    font-family: 'open_sanslight_italic';
+}
+
+.breadcrumbs__link_active {
+    color: black;
+    text-decoration: none;
+  }
+
+

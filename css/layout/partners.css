@@ -1,0 +1,39 @@
+.partners__title {
+    color: #221f1f;
+    font-size: 49px;
+    font-family: "open_sansbold";
+    margin-bottom: 35px;
+
+}
+
+.partners__list{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+  }
+
+  .partners__item{
+    display:inline-block;
+    width:150px;
+    margin-right: 143px;
+    margin-bottom: 45px;
+    margin-left: 9px;
+  }
+
+  .partners__item:nth-child(3n+0){
+    margin:0;
+  }
+
+  .partners__link{
+    display:inline-block;
+  }
+
+  .partners__image{
+    width:100%;
+    filter:grayscale(100%);
+    transition: 1s;
+  }
+
+  .partners__item:hover .partners__image{
+     filter:grayscale(0);
+    }

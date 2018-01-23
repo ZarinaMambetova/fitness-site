@@ -1,0 +1,132 @@
+.header {
+    background-color: #131415 ;
+    color: #fff;
+    }
+
+    .header__logo {
+        display: inline-block;
+        margin-top: 2px;
+        margin-left: -5px;
+    }
+
+    .header__col {
+        float: left;
+        width: 50%;
+
+      }
+      
+      .header__col_align_right {
+        text-align: right;
+       margin-top: 10px;
+        margin-bottom: 15px;
+        display: inline-block;
+      }
+      
+      
+      .contacts__trigger_main_text:hover {
+        color: #ffffff;
+      }
+
+      .logo_image {
+          margin-top: 25px;
+      }
+
+      .contacts__phone {
+        color: #ffffff;
+        font-size: 21px;
+        font-family: "open_sansbold";
+        text-decoration: none;
+        display: block;
+        font-style: normal;
+        
+    }
+
+    .contacts__trigger_main_text {
+        color: #f89513;
+        font-size: 14px;
+        font-family: "open_sansbold";
+        font-style: normal;
+        text-decoration: underline; 
+        transition: .3s;
+
+    }
+    .contacts__trigger {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        
+        
+    }
+
+    .contacts__trigger__menu {
+        padding: 19px;
+        background: #f5f5f5;
+        border-radius: 3px;
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+        font-size: 14px;
+        position: absolute;
+        top: 100%;
+        margin-top: 10px;
+        left: -9999px;
+        transition: all .3s linear;
+        opacity:0;
+    }
+
+    .contacts__trigger__menu:before {
+            content: "";
+            display: block;
+            height: 20px;
+            left: 0;
+            right: 0;
+            top: -19px;
+            position: absolute;
+            
+        }
+   
+
+    .contacts__trigger:hover .contacts__trigger__menu {
+        right: 0;
+        left: initial;
+        opacity: 1;
+    }
+
+    .contacts__trigger__text {
+        color: #f89513;
+        font-size: 14px;
+        font-family: "open_sansbold";
+        font-style: normal;
+        text-align: left;
+        text-decoration: none;
+        padding-left: 20px;
+
+        
+    }
+
+    .contacts__trigger__text_black {
+    color: #3b3939;
+    font-family: "open_sanslight";
+   
+    }
+
+    .contacts__trigger__menu {
+        content: "";
+        display: block;
+        width: 163px;
+                border: 1px solid transparent;
+        z-index: 4;
+
+    }
+
+    .triangle {
+        
+        border-top: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #f5f5f5;
+        width: 0;
+        height: 0;
+        bottom: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: 80px;
+           }

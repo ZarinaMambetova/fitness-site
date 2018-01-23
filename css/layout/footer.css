@@ -1,0 +1,40 @@
+
+.footer {
+  height: 80px;
+    background: #131415;
+    color: #fff;
+    margin-top: -57px;
+    min-width: 1080px;
+  }
+  
+  .footer__colunm {
+    float: left;
+    width: 33.3%;
+
+  }
+
+
+.footer__autor {
+font-size: 14px;
+font-family: 'open_sanslight';
+width: 232px;
+margin-top: 10px;
+margin-left: -5px;
+}
+
+a.copyright_link {
+    color: #ffffff;
+}
+
+.copyright__author-type-bold {
+    font-family: "open_sansbold";
+}
+
+.footer__logo {
+display: inline-block;
+margin-left: 47px;
+margin-top: 15px;
+}
+
+
+

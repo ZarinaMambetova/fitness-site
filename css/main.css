@@ -1,0 +1,68 @@
+@import "layout/header.css" ;
+@import "layout/logo.css" ;
+@import "layout/fonts.css" ;
+@import "layout/breadcrumbs.css" ;
+@import "layout/services.css" ;
+@import "layout/social.css" ;
+@import "layout/navigation.css" ;
+@import "layout/footer.css" ;
+@import "layout/information.css" ;
+@import "layout/banner.css" ;
+@import "layout/partners.css" ;
+@import "layout/intro.css" ;
+@import "layout/Feed.css" ;
+
+  body, html {
+    height: 100%;
+    
+  }
+
+  body {
+    margin: 0;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1080px;
+  }
+  
+  .wrapper:after {
+    content: "";
+    display: block;
+    height: 80px;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+    width: 1060px ;
+    margin: 0 auto ;
+}
+
+
+
+.main {
+  width: 882px;
+  float: left;
+}
+
+.aside {
+  width: 159px;
+  float: left;
+  margin-right: 17px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
