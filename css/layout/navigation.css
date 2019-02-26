@@ -40,16 +40,16 @@
   }
   
   .nav__icon_services {
-    background: url('../../_img/icon/service_icon.png') center center no-repeat;
+    background: url('../../img/icon/service_icon.png') center center no-repeat;
   }
 
   .nav__icon_main {
-    background: url('../../_img/icon/main_icon.png') center center no-repeat;
+    background: url('../../img/icon/main_icon.png') center center no-repeat;
     
   }
 
   .nav__icon_feed {
-    background: url('../../_img/icon/feed_icon.png') center center no-repeat;
+    background: url('../../img/icon/feed_icon.png') center center no-repeat;
     
   }
   
@@ -58,27 +58,27 @@
   }
   
   .nav__link:hover .nav__icon_services {
-    background-image: url('../../_img/icon/service_icon-hover.png');
+    background-image: url('../../img/icon/service_icon-hover.png');
   }
 
   .nav__link:hover .nav__icon_main {
-    background-image: url('../../_img/icon/main_icon-hover.png');
+    background-image: url('../../img/icon/main_icon-hover.png');
   }
 
   .nav__link:hover .nav__icon_feed {
-    background-image: url('../../_img/icon/feed_icon-hover.png');
+    background-image: url('../../img/icon/feed_icon-hover.png');
   }
 
   .nav__icon_services_active  {
-    background-image: url('../../_img/icon/service_icon-hover.png');
+    background-image: url('../../img/icon/service_icon-hover.png');
   }
 
   .nav__icon_main_active  {
-    background-image: url('../../_img/icon/main_icon-hover.png');
+    background-image: url('../../img/icon/main_icon-hover.png');
   }
 
   .nav__icon_feed_active {
-    background-image: url('../../_img/icon/feed_icon-hover.png');
+    background-image: url('../../img/icon/feed_icon-hover.png');
   }
 
 
